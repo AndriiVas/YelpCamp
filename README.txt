@@ -1,0 +1,1 @@
+My first project. Express app with MongoDB on the back-end. List of campsites with pictures, search, Google Maps location, user authorization with Passport.JS
