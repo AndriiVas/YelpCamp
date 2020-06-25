@@ -1,0 +1,64 @@
+.thumbnail img {
+	width: 100%;
+	height: 40vw;
+    object-fit: cover;
+	
+}
+.jumbotron {
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	
+}
+
+.thumbnail {
+	padding: 0;
+}
+
+
+.thumbnail .caption-full{
+	padding: 9px;
+}
+
+.delete-form{
+	display:inline;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+	/* this makes the images inside cards in index to be the same size */
+	#indexCardImg {
+		width: 100%;
+	    height: 50vw;
+	    object-fit: cover;
+	}
+}
+
+@media (min-width: 768px) {
+	/* this makes the images inside cards in index to be the same size */
+	#indexCardImg {
+		width: 100%;
+	    height: 25vw;
+	    object-fit: cover;
+	}
+}
+
+@media (min-width: 992px) {
+	/* this makes the images inside cards in index to be the same size */
+	#indexCardImg {
+		width: 100%;
+	    height: 15vw;
+	    object-fit: cover;
+	}
+}
+
+body{
+	background: #D1913C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
